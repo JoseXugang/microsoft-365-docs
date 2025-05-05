@@ -58,6 +58,9 @@ The steps in this article can't prevent members of certain roles from creating G
 
 If you're a member of one of these roles, you can create Microsoft 365 Groups for restricted users, and then assign the user as the owner of the group.
 
+> [!NOTE]
+> The Exchange administrator cannot create Microsoft 365 Groups from the Exchange admin center unless the user is part of the users allowed to create groups. For more details, see [Manage who can create Microsoft 365 Groups](/microsoft-365/solutions/manage-creation-of-groups).
+
 ## Licensing requirements
 
 To manage who creates groups, the following people need Microsoft Entra ID P1 or P2 licenses or Microsoft Entra Basic Education (EDU) licenses assigned to them:
