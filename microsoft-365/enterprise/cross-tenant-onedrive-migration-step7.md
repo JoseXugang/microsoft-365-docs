@@ -61,7 +61,7 @@ After you complete the migration from Source to Target, a redirect link is place
 Occasionally, a user may need to be migrated back to the original source. Remove the redirect link on the Target if you migrate a user back to the source.
 
 - To remove redirect links, use the **Remove-SPOSite** PowerShell command.
-- To get a list of all redirect sites on a tenant,  use the **Get-Sposite -Template RedirectSite#0** command.
+- To get a list of all redirect sites on a tenant,  use the **Get-Sposite -Template RedirectSite#0 -IncludePersonalSite $true** command.
 
 Keep track of any user or site you migrate back to the source from the target. After successfully migrating these users or sites back to the source, confirm that the user and sites are accessible. Then you can remove the redirect link from Target using the **Remove-SPOSite command**.
 
